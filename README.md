@@ -2,7 +2,8 @@
 Prediction ovarian cancer regions with whole slide images
 
 # Train code
-$ python train.py -h
+```
+python train.py -h
 usage: train.py [-h] [--folder FOLDER] [--data_path DATA_PATH] [--save_path SAVE_PATH] [--batch_size BATCH_SIZE] [--num_workers NUM_WORKERS] [--epochs EPOCHS] [--gpu_num GPU_NUM]
                 [--model_num MODEL_NUM]
 
@@ -19,4 +20,5 @@ optional arguments:
                         (default=8)
   --epochs EPOCHS       (default=150)
   --gpu_num GPU_NUM     (default="0,1")
-  --model_num MODEL_NUM (default=0) $
+  --model_num MODEL_NUM (default=0)
+  ```
