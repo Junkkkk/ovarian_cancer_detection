@@ -1,5 +1,13 @@
 # ovarian cancer detection
-Prediction ovarian cancer regions with whole slide images
+Patch-based model for detecting ovarian cancer regions with whole slide images
+
+# Generate patch
+''' 
+python patch_generator.multi.py --folder 0 \
+                                --base_path ./ \
+                                --save_path ./data \
+                                --subject_case ovary 
+'''
 
 # Train code
 ```
